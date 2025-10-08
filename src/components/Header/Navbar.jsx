@@ -28,7 +28,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            className="menu menu-md dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li  className="nav-link">
               <a>Home</a>
@@ -46,7 +46,7 @@ const Navbar = () => {
           <img
             className="w-9 h-9 md:w-10 md:h-10 mr-1 md:mr-2 ml-0 md:ml-4 lg:ml-12"
             src={logo}
-            alt=""
+            alt="site-logo"
           />
           <a className="site-title text-base md:text-xl uppercase font-bold cursor-pointer">
             hero.io
