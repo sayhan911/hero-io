@@ -5,12 +5,7 @@
     rgba(159, 98, 242, 1) 100%
   );
 }
-.community h6, p{
+.community h6, .community p{
   font-size: 14px;
   opacity: 80%;
 }
-/* .community h4{
-  font-size: 50px;
-  font-weight: 800;
-
-} */

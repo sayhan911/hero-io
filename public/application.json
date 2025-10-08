@@ -1,0 +1,273 @@
+[
+    {
+      "image": "https://cdn4.iconfinder.com/data/icons/adobe-apps/512/Photoshop-512.png",
+      "title": "Photo Editor Pro",
+      "companyName": "PixelTech",
+      "id": 1,
+      "description": "A powerful photo editing tool designed for both amateurs and professionals, offering advanced filters, layers, and retouching capabilities to enhance your images with ease. This app supports high-resolution editing and provides a user-friendly interface with real-time previews.",
+      "size": 125,
+      "reviews": 3400,
+      "ratingAvg": 4.5,
+      "downloads": 5,
+      "ratings": [
+        { "name": "1 star", "count": 50 },
+        { "name": "2 star", "count": 100 },
+        { "name": "3 star", "count": 200 },
+        { "name": "4 star", "count": 800 },
+        { "name": "5 star", "count": 2250 }
+      ]
+    },
+    {
+      "image": "https://cdn-icons-png.flaticon.com/512/12165/12165108.png",
+      "title": "Music Streamer",
+      "companyName": "AudioWave",
+      "id": 2,
+      "description": "Stream your favorite songs and discover new tracks with this intuitive music streaming app. It features offline mode, personalized playlists, and high-quality audio output, making it perfect for music lovers on the go.",
+      "size": 98,
+      "reviews": 2800,
+      "ratingAvg": 4.2,
+      "downloads": 8,
+      "ratings": [
+        { "name": "1 star", "count": 70 },
+        { "name": "2 star", "count": 150 },
+        { "name": "3 star", "count": 300 },
+        { "name": "4 star", "count": 900 },
+        { "name": "5 star", "count": 1380 }
+      ]
+    },
+    {
+      "image": "https://cdni.iconscout.com/illustration/premium/thumb/fitness-app-illustration-svg-download-png-3742571.png",
+      "title": "Fitness Tracker",
+      "companyName": "HealthFit",
+      "id": 3,
+      "description": "Track your daily workouts, monitor heart rate, and achieve your fitness goals with this comprehensive fitness tracker app. It includes workout plans, calorie counters, and progress analytics to keep you motivated.",
+      "size": 150,
+      "reviews": 4500,
+      "ratingAvg": 4.7,
+      "downloads": 9,
+      "ratings": [
+        { "name": "1 star", "count": 30 },
+        { "name": "2 star", "count": 80 },
+        { "name": "3 star", "count": 150 },
+        { "name": "4 star", "count": 700 },
+        { "name": "5 star", "count": 3540 }
+      ]
+    },
+    {
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/22a3ab16269821.562a8602153f7.png",
+      "title": "Task Manager Pro",
+      "companyName": "OrganiCo",
+      "id": 4,
+      "description": "Stay organized with this advanced task management app that offers features like task prioritization, reminders, and team collaboration tools. Ideal for professionals and students looking to boost productivity.",
+      "size": 85,
+      "reviews": 3200,
+      "ratingAvg": 4.3,
+      "downloads": 10,
+      "ratings": [
+        { "name": "1 star", "count": 60 },
+        { "name": "2 star", "count": 120 },
+        { "name": "3 star", "count": 250 },
+        { "name": "4 star", "count": 850 },
+        { "name": "5 star", "count": 1920 }
+      ]
+    },
+    {
+      "image": "https://cdn-icons-png.flaticon.com/512/3698/3698647.png",
+      "title": "Video Editor Plus",
+      "companyName": "ClipMaster",
+      "id": 5,
+      "description": "Create stunning videos with this feature-rich video editing app, which includes multi-track editing, transitions, and special effects. Perfect for content creators and vloggers looking to produce professional-quality videos.",
+      "size": 200,
+      "reviews": 3900,
+      "ratingAvg": 4.6,
+      "downloads": 7,
+      "ratings": [
+        { "name": "1 star", "count": 40 },
+        { "name": "2 star", "count": 90 },
+        { "name": "3 star", "count": 180 },
+        { "name": "4 star", "count": 750 },
+        { "name": "5 star", "count": 2840 }
+      ]
+    },
+    {
+      "image": "https://cdn-icons-png.flaticon.com/512/1869/1869042.png",
+      "title": "Cooking Recipes",
+      "companyName": "TasteBuddy",
+      "id": 6,
+      "description": "Explore a vast collection of recipes from around the world with this cooking app. It offers step-by-step guides, ingredient lists, and cooking timers to help you prepare delicious meals effortlessly.",
+      "size": 110,
+      "reviews": 2700,
+      "ratingAvg": 4.4,
+      "downloads": 6,
+      "ratings": [
+        { "name": "1 star", "count": 50 },
+        { "name": "2 star", "count": 100 },
+        { "name": "3 star", "count": 200 },
+        { "name": "4 star", "count": 700 },
+        { "name": "5 star", "count": 1650 }
+      ]
+    },
+    {
+      "image": "https://cdn-icons-png.flaticon.com/512/4757/4757094.png",
+      "title": "Budget Planner",
+      "companyName": "MoneyWise",
+      "id": 7,
+      "description": "Manage your finances effectively with this budget planning app that tracks expenses, sets savings goals, and provides insightful financial reports. A must-have for anyone looking to take control of their money.",
+      "size": 75,
+      "reviews": 3100,
+      "ratingAvg": 4.5,
+      "downloads": 6,
+      "ratings": [
+        { "name": "1 star", "count": 60 },
+        { "name": "2 star", "count": 110 },
+        { "name": "3 star", "count": 220 },
+        { "name": "4 star", "count": 800 },
+        { "name": "5 star", "count": 1910 }
+      ]
+    },
+    {
+      "image": "https://cdn0.iconfinder.com/data/icons/summer-and-travel-6/128/251-512.png",
+      "title": "Travel Guide",
+      "companyName": "Wanderlust",
+      "id": 8,
+      "description": "Plan your next adventure with this travel guide app, featuring destination guides, travel tips, and offline maps. It also includes user reviews and booking options for a seamless travel experience.",
+      "size": 130,
+      "reviews": 3600,
+      "ratingAvg": 4.6,
+      "downloads": 9,
+      "ratings": [
+        { "name": "1 star", "count": 40 },
+        { "name": "2 star", "count": 90 },
+        { "name": "3 star", "count": 180 },
+        { "name": "4 star", "count": 750 },
+        { "name": "5 star", "count": 2540 }
+      ]
+    },
+    {
+      "image": "https://png.pngtree.com/png-clipart/20221228/original/pngtree-digital-learning-ebook-internet-online-computer-remote-study-app-logo-png-image_8818645.png",
+      "title": "Learning Hub",
+      "companyName": "EduSmart",
+      "id": 9,
+      "description": "Enhance your knowledge with this educational app that offers courses, quizzes, and interactive lessons across various subjects. Ideal for students and lifelong learners seeking to expand their skills.",
+      "size": 145,
+      "reviews": 3300,
+      "ratingAvg": 4.4,
+      "downloads": 5,
+      "ratings": [
+        { "name": "1 star", "count": 50 },
+        { "name": "2 star", "count": 100 },
+        { "name": "3 star", "count": 200 },
+        { "name": "4 star", "count": 800 },
+        { "name": "5 star", "count": 2150 }
+      ]
+    },
+    {
+      "image": "https://static.vecteezy.com/system/resources/previews/017/744/677/non_2x/video-game-icon-png.png",
+      "title": "Game Portal",
+      "companyName": "PlayZone",
+      "id": 10,
+      "description": "Dive into a world of gaming with this app that offers a variety of games, from puzzles to action-packed adventures. It includes leaderboards and multiplayer modes for an engaging gaming experience.",
+      "size": 180,
+      "reviews": 4000,
+      "ratingAvg": 4.7,
+      "downloads": 9,
+      "ratings": [
+        { "name": "1 star", "count": 30 },
+        { "name": "2 star", "count": 80 },
+        { "name": "3 star", "count": 150 },
+        { "name": "4 star", "count": 700 },
+        { "name": "5 star", "count": 3040 }
+      ]
+    },
+    {
+      "image": "https://cdn-icons-png.flaticon.com/512/7133/7133364.png",
+      "title": "Weather Pro",
+      "companyName": "SkyCast",
+      "id": 11,
+      "description": "Stay updated with accurate weather forecasts using this app, which provides hourly updates, radar maps, and severe weather alerts. Perfect for planning your day or preparing for outdoor activities.",
+      "size": 90,
+      "reviews": 2900,
+      "ratingAvg": 4.3,
+      "downloads": 6,
+      "ratings": [
+        { "name": "1 star", "count": 60 },
+        { "name": "2 star", "count": 120 },
+        { "name": "3 star", "count": 250 },
+        { "name": "4 star", "count": 850 },
+        { "name": "5 star", "count": 1620 }
+      ]
+    },
+    {
+      "image": "https://png.pngtree.com/png-clipart/20220816/ourmid/pngtree-shopping-icon-png-image_6111813.png",
+      "title": "Shopping Assistant",
+      "companyName": "ShopEasy",
+      "id": 12,
+      "description": "Simplify your shopping experience with this app that offers product comparisons, price alerts, and online store integrations. Ideal for finding the best deals and managing your shopping lists.",
+      "size": 120,
+      "reviews": 3500,
+      "ratingAvg": 4.5,
+      "downloads": 7,
+      "ratings": [
+        { "name": "1 star", "count": 50 },
+        { "name": "2 star", "count": 100 },
+        { "name": "3 star", "count": 200 },
+        { "name": "4 star", "count": 800 },
+        { "name": "5 star", "count": 2350 }
+      ]
+    },
+    {
+      "image": "https://cdn-icons-png.flaticon.com/512/129/129728.png",
+      "title": "Meditation Calm",
+      "companyName": "MindPeace",
+      "id": 13,
+      "description": "Find inner peace with this meditation app that offers guided sessions, breathing exercises, and soothing sounds. Perfect for reducing stress and improving mental well-being in just a few minutes a day.",
+      "size": 95,
+      "reviews": 3100,
+      "ratingAvg": 4.6,
+      "downloads": 5,
+      "ratings": [
+        { "name": "1 star", "count": 40 },
+        { "name": "2 star", "count": 90 },
+        { "name": "3 star", "count": 180 },
+        { "name": "4 star", "count": 750 },
+        { "name": "5 star", "count": 780 }
+      ]
+    },
+    {
+      "image": "https://cdn-icons-png.flaticon.com/512/741/741867.png",
+      "title": "News Reader",
+      "companyName": "InfoFlow",
+      "id": 14,
+      "description": "Stay informed with this news reader app that aggregates articles from top sources, offers customizable feeds, and provides offline reading options. A great tool for keeping up with current events.",
+      "size": 110,
+      "reviews": 3000,
+      "ratingAvg": 4.4,
+      "downloads": 4,
+      "ratings": [
+        { "name": "1 star", "count": 50 },
+        { "name": "2 star", "count": 100 },
+        { "name": "3 star", "count": 200 },
+        { "name": "4 star", "count": 800 },
+        { "name": "5 star", "count": 1850 }
+      ]
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Procreate_icon.png",
+      "title": "Art Creator",
+      "companyName": "CreativeCanvas",
+      "id": 15,
+      "description": "Unleash your creativity with this art creation app that provides drawing tools, color palettes, and layer support. Suitable for artists of all levels to create stunning digital artwork.",
+      "size": 160,
+      "reviews": 3700,
+      "ratingAvg": 4.6,
+      "downloads": 9,
+      "ratings": [
+        { "name": "1 star", "count": 40 },
+        { "name": "2 star", "count": 90 },
+        { "name": "3 star", "count": 180 },
+        { "name": "4 star", "count": 750 },
+        { "name": "5 star", "count": 2640 }
+      ]
+    }
+  ]
+  

@@ -9,7 +9,8 @@
   background-clip: text;
   color: transparent;
 }
-.btn-contribute {
+.btn-contribute,
+.btn-show-all {
   color: rgba(255, 255, 255, 1);
   font-size: 16px;
   font-weight: 500;
@@ -22,7 +23,8 @@
   );
   transition: all 0.3s ease-in-out;
 }
-.btn-contribute:hover {
+.btn-contribute:hover,
+.btn-show-all:hover {
   transform: scale(1.05);
 }
 .nav-link {
