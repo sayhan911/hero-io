@@ -7,6 +7,7 @@ import Installation from "../pages/Installation/Installation";
 import Applications from "../pages/Applications/Applications";
 import AppDetails from "../pages/AppDetails/AppDetails";
 
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -18,21 +19,25 @@ export const router = createBrowserRouter([
         index: true,
         path: "/",
         Component: Home,
-        loader: () => fetch("application.json"),
+        loader: () => fetch("../application.json"),
       },
       {
         path: "/apps",
-        Component: Applications,
-        loader: () => fetch("application.json"),
+        // Component: Applications,
+        element: <Applications></Applications>,
+        loader: () => fetch("../application.json"),
       },
       {
         path: "/appDetails/:id",
-        Component: AppDetails,
-        loader: () => fetch("application.json"),
+        // Component: AppDetails,
+        element: <AppDetails></AppDetails>,
+        loader: () => fetch("../application.json"),
       },
       {
         path: "/installation",
-        Component: Installation,
+        // Component: Installation,
+        element: <Installation></Installation>,
+        loader: () => fetch("../application.json"),
       },
     ],
   },

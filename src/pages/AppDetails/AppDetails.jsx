@@ -4,12 +4,16 @@ import { useLoaderData, useParams } from "react-router";
 import iconDownload from "../../assets/icon-downloads.png";
 import iconRating from "../../assets/icon-ratings.png";
 import iconReview from "../../assets/icon-review.png";
+import AppNotFound from "../ErrorPage/AppNotFound";
 
 const AppDetails = () => {
   const { id } = useParams();
   const appId = parseInt(id);
   const data = useLoaderData();
   const singleApp = data.find((app) => app.id === appId);
+  if (!singleApp) {
+    return <AppNotFound></AppNotFound>;
+  }
   const {
     image,
     title,
@@ -20,6 +24,21 @@ const AppDetails = () => {
     description,
     size,
   } = singleApp;
+
+  const handleInstall = () => {
+    const existingApp = JSON.parse(localStorage.getItem("install"));
+    let updatedList = [];
+    if (existingApp) {
+      const isDuplicate = existingApp.some((p) => p.id === singleApp.id);
+      if (isDuplicate){
+        return alert('Sorry vai')
+      }
+      updatedList = [...existingApp, singleApp];
+    } else {
+      updatedList.push(singleApp);
+    }
+    localStorage.setItem("install", JSON.stringify(updatedList));
+  };
   return (
     <div className="bg-[#F5F5F5]">
       {/* Details Top */}
@@ -42,12 +61,18 @@ const AppDetails = () => {
                 </span>
               </p>
             </div>
-            <button className="btn btn-primary p-6 text-base font-medium tracking-wide transition-transform duration-300 ease-in-out hover:scale-95">
+            <button
+              onClick={handleInstall}
+              className="btn btn-primary p-6 text-base font-medium tracking-wide transition-transform duration-300 ease-in-out hover:scale-95"
+            >
               Install Now ({size}MB)
             </button>
           </div>
           <div className="flex items-end">
-            <button className="btn sm:hidden btn-primary p-3 sm:p-4 text-base font-medium tracking-wide transition-transform duration-300 ease-in-out hover:scale-95">
+            <button
+              onClick={handleInstall}
+              className="btn sm:hidden btn-primary p-3 sm:p-4 text-base font-medium tracking-wide transition-transform duration-300 ease-in-out hover:scale-95"
+            >
               Install{" "}
               <span className="text-xs tracking-normal">({size}MB)</span>
             </button>
@@ -82,7 +107,10 @@ const AppDetails = () => {
             </div>
           </div>
           <div>
-            <button className="btn hidden lg:flex bg-[#05D390] text-white p-6 mt-4 text-lg font-medium tracking-wider transition-transform duration-300 ease-in-out hover:scale-95">
+            <button
+              onClick={handleInstall}
+              className="btn hidden lg:flex bg-[#05D390] text-white p-6 mt-4 text-lg font-medium tracking-wider transition-transform duration-300 ease-in-out hover:scale-95"
+            >
               Install Now ({size}MB)
             </button>
           </div>

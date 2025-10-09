@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import AppsGrid from "../../components/AppsGrid/AppsGrid";
 import { useLoaderData } from "react-router";
 import { CiSearch } from "react-icons/ci";
-import NothingFound from "../../components/NothingFound/NothingFound";
+import AppNotFound from "../ErrorPage/AppNotFound";
 
 const Applications = () => {
   const data = useLoaderData();
@@ -38,7 +38,7 @@ const Applications = () => {
       </div>
       <div className="pb-20">
         {searchedApps.length === 0 ? (
-          <NothingFound></NothingFound>
+          <AppNotFound></AppNotFound>
         ) : (
           <AppsGrid data={searchedApps}></AppsGrid>
         )}
