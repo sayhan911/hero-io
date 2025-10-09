@@ -1,5 +1,4 @@
-import React, { Suspense } from "react";
-import App from "../App/SingleApp";
+import React from "react";
 import { Link } from "react-router";
 import AppsGrid from "../AppsGrid/AppsGrid";
 
@@ -15,7 +14,7 @@ const Apps = ({ data }) => {
       <AppsGrid data={data} limit={8}></AppsGrid>
       <div className="flex justify-center pt-10 pb-20">
         <Link to="/apps">
-          <button className="btn btn-show-all px-9 py-6">Show All</button>
+          <button className="btn btn-primary px-9 py-6">Show All</button>
         </Link>
       </div>
     </div>
