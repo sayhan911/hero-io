@@ -1,7 +1,7 @@
 import React from "react";
 import hero from "../../assets/hero.png";
-import googlePlay from "../../assets/google-play.png"
-import appStore from "../../assets/app-store.png"
+import googlePlay from "../../assets/google-play.png";
+import appStore from "../../assets/app-store.png";
 
 const Banner = () => {
   return (
@@ -16,8 +16,31 @@ const Banner = () => {
         digital experiences that truly make an impact.
       </p>
       <div className="flex justify-center gap-4 mb-10">
-        <button className="btn py-5 transition-all duration-300 ease-in-out hover:scale-105"><img className="w-7 h-auto" src={googlePlay} alt="google-play-button" /> Google Play</button>
-        <button className="btn py-5 transition-all duration-300 ease-in-out hover:scale-105"><img className="w-7 h-auto" src={appStore} alt="app-store-button" />App Store</button>
+        <a
+          href="https://play.google.com/store"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="btn py-5 transition-all duration-300 ease-in-out hover:scale-105">
+            <img
+              className="w-7 h-auto"
+              src={googlePlay}
+              alt="google-play-button"
+            />{" "}
+            Google Play
+          </button>
+        </a>
+
+        <a
+          href="https://www.apple.com/app-store/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="btn py-5 transition-all duration-300 ease-in-out hover:scale-105">
+            <img className="w-7 h-auto" src={appStore} alt="app-store-button" />{" "}
+            App Store
+          </button>
+        </a>
       </div>
       <img src={hero} alt="hero-image" />
     </div>
