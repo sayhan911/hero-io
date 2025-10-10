@@ -1,12 +1,7 @@
 import React from "react";
 import AppError from "../../assets/App-Error.png";
-import { useNavigate } from "react-router";
 
 const AppNotFound = () => {
-  const navigate = useNavigate();
-  const handleGoBack = () => {
-    window.history.length > 2 ? navigate(-1) : navigate("/");
-  };
   return (
     <div>
       <div className="flex flex-col justify-center items-center">
@@ -23,9 +18,9 @@ const AppNotFound = () => {
             The App you are requesting is not found on our system. please try
             another apps
           </p>
-          <button className="btn btn-primary px-9 py-6" onClick={handleGoBack}>
-            Go Back!
-          </button>
+          <a className="btn btn-primary px-9 py-6" href="">
+            See All Apps
+          </a>
         </div>
       </div>
     </div>

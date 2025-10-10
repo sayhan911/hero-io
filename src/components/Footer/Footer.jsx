@@ -7,15 +7,18 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
     <footer className="bg-[#011931] p-10 md:flex md:justify-evenly justify-items-center">
       <aside className="w-1/3 flex flex-col items-center justify-center mb-10 md:mb-0 mr-0 md:mr-6">
-        <img className="w-20 h-auto mb-2" src={logo} alt="" />
-        <p className="logo-footer text-base md:text-xl uppercase font-bold cursor-pointer">
-          Hero.io
-        </p>
+        <Link to="/">
+          <img className="w-20 h-auto mb-2" src={logo} alt="" />
+          <p className="logo-footer text-base md:text-xl uppercase font-bold cursor-pointer">
+            appzy
+          </p>
+        </Link>
       </aside>
       <div className="grid grid-cols-2 gap-6 w-full justify-items-center md:flex md:justify-evenly">
         <nav className="flex flex-col gap-1 md:gap-2 w-3/4">

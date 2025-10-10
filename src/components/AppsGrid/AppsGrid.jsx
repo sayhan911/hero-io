@@ -3,6 +3,7 @@ import App from "../App/SingleApp";
 
 const AppsGrid = ({ data, limit }) => {
   const displayedApps = limit ? data.slice(0, limit) : data;
+
   return (
     <div>
       <Suspense

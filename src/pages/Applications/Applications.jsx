@@ -3,12 +3,23 @@ import AppsGrid from "../../components/AppsGrid/AppsGrid";
 import { useLoaderData } from "react-router";
 import { CiSearch } from "react-icons/ci";
 import AppNotFound from "../ErrorPage/AppNotFound";
+import PageLoader from "../../components/PageLoader/PageLoader";
+import SearchLoader from "../../components/PageLoader/SearchLoader";
 
 const Applications = () => {
   const data = useLoaderData();
   const totalApps = data.length;
 
   const [search, setSearch] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleSearch = (e) => {
+    const value = e.target.value;
+    setLoading(true);
+    setSearch(value);
+    setTimeout(() => setLoading(false), 500);
+  };
+
   const term = search.trim().toLocaleLowerCase();
   const searchedApps = term
     ? data.filter((app) => app.title.toLocaleLowerCase().includes(term))
@@ -30,17 +41,21 @@ const Applications = () => {
           <CiSearch />
           <input
             value={search}
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={handleSearch}
             type="search"
             placeholder="Search Apps"
           />
         </label>
       </div>
-      <div className="pb-20">
-        {searchedApps.length === 0 ? (
-          <AppNotFound></AppNotFound>
+      <div className="pb-20 min-h-[400px] flex justify-center items-center">
+        {loading ? (
+          <div className="flex justify-center py-10">
+            <SearchLoader></SearchLoader>
+          </div>
+        ) : searchedApps.length === 0 ? (
+          <AppNotFound />
         ) : (
-          <AppsGrid data={searchedApps}></AppsGrid>
+          <AppsGrid data={searchedApps} />
         )}
       </div>
     </div>

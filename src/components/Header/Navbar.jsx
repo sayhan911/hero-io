@@ -59,7 +59,7 @@ const Navbar = () => {
               alt="site-logo"
             />
             <span className="site-title text-base md:text-xl uppercase font-bold">
-              hero.io
+              appzy
             </span>
           </Link>
         </div>

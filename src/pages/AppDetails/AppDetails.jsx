@@ -60,6 +60,7 @@ const AppDetails = () => {
       html: "Setting up your app... Hang tight!",
       timer: 2000,
       timerProgressBar: true,
+      allowOutsideClick: false,
       didOpen: () => {
         Swal.showLoading();
       },
@@ -70,6 +71,7 @@ const AppDetails = () => {
           title: "Installation Complete!",
           text: "Your app has been successfully installed.",
           icon: "success",
+          allowOutsideClick: false,
         });
       }
     });
@@ -100,7 +102,7 @@ const AppDetails = () => {
             <button
               onClick={handleInstall}
               disabled={isInstalled}
-              className="btn bg-[#05D390] text-white py-6 px-0 text-lg font-medium tracking-wide transition-transform duration-300 ease-in-out hover:scale-95"
+              className="btn bg-[#05D390] text-white py-6 px-0 text-lg font-medium tracking-wide transition-transform duration-300 ease-in-out hover:scale-95 glossy-effect"
             >
               {isInstalled ? "Installed" : `Install Now (${size}MB)`}
             </button>
@@ -109,7 +111,7 @@ const AppDetails = () => {
             <button
               onClick={handleInstall}
               disabled={isInstalled}
-              className="btn sm:hidden bg-[#05D390] text-white p-3 sm:p-4 text-base font-medium tracking-wide transition-transform duration-300 ease-in-out hover:scale-95"
+              className="btn sm:hidden bg-[#05D390] text-white p-3 sm:p-4 text-base font-medium tracking-wide transition-transform duration-300 ease-in-out hover:scale-95 glossy-effect"
             >
               {isInstalled ? (
                 "Installed"
@@ -154,7 +156,7 @@ const AppDetails = () => {
             <button
               onClick={handleInstall}
               disabled={isInstalled}
-              className="btn hidden lg:flex bg-[#05D390] text-white p-6 mt-4 text-lg font-medium tracking-wide transition-transform duration-300 ease-in-out hover:scale-95"
+              className="btn hidden lg:flex bg-[#05D390] text-white p-6 mt-4 text-lg font-medium tracking-wide transition-transform duration-300 ease-in-out hover:scale-95 glossy-effect"
             >
               {isInstalled ? "Installed" : `Install Now (${size}MB)`}
             </button>

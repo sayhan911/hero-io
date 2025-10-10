@@ -6,14 +6,14 @@ import Home from "../pages/Home/Home";
 import Installation from "../pages/Installation/Installation";
 import Applications from "../pages/Applications/Applications";
 import AppDetails from "../pages/AppDetails/AppDetails";
-
+import PageLoader from "../components/PageLoader/PageLoader";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
     errorElement: <ErrorPage></ErrorPage>,
-    hydrateFallbackElement: <p>Loading...</p>,
+    hydrateFallbackElement: <PageLoader></PageLoader>,
     children: [
       {
         index: true,
@@ -28,7 +28,7 @@ export const router = createBrowserRouter([
         loader: () => fetch("../application.json"),
       },
       {
-        path: "/appDetails/:id",
+        path: "/apps/:id",
         // Component: AppDetails,
         element: <AppDetails></AppDetails>,
         loader: () => fetch("../application.json"),

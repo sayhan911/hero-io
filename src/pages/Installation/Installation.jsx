@@ -30,6 +30,7 @@ const Installation = () => {
       text: "You won't be able to revert this!",
       icon: "warning",
       showCancelButton: true,
+      allowOutsideClick: false,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
       confirmButtonText: "Yes, uninstall!",
@@ -40,6 +41,7 @@ const Installation = () => {
           html: "Removing your app... Hang tight!",
           timer: 2000, // Simulate 2 seconds of loading
           timerProgressBar: true,
+          allowOutsideClick: false,
           didOpen: () => {
             Swal.showLoading();
           },
@@ -55,6 +57,7 @@ const Installation = () => {
             title: "Uninstalled!",
             text: "Your app has been uninstalled.",
             icon: "success",
+            allowOutsideClick: false,
           });
         });
       }
