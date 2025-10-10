@@ -10,7 +10,6 @@
 .app-details p {
   color: #314659cf;
   font-size: 13px;
-  margin-top: 10px;
 }
 .app-details h5 {
   font-size: 30px;
@@ -19,7 +18,6 @@
 @media (min-width: 550px) {
   .app-details p {
     font-size: 15px;
-    margin-top: 10px;
   }
   .app-details h5 {
     font-size: 40px;

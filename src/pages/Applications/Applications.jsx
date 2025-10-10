@@ -24,7 +24,7 @@ const Applications = () => {
       </p>
       <div className="flex flex-col sm:flex-row justify-between items-center mx-12 sm:mx-7 lg:mx-20 mb-4">
         <h3 className="text-base sm:text-lg md:text-xl font-semibold mb-3 md:mb-0">
-          ({totalApps}) Apps Found
+          ({term ? searchedApps.length : totalApps}) Apps Found
         </h3>
         <label className="input w-full sm:w-1/3 lg:w-1/4">
           <CiSearch />

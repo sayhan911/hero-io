@@ -6,13 +6,13 @@
     "id": 1,
     "description": "Photo Editor Pro is a powerful and intuitive image editing application built to cater to both amateur photographers and seasoned professionals. Designed with precision and creativity in mind, it offers a comprehensive suite of tools that allows users to edit, enhance, and transform their photos with remarkable ease. The app includes a wide selection of filters, adjustment sliders, and artistic effects that give users full control over tone, saturation, lighting, and detail. From basic cropping and straightening to advanced features like layer blending, object removal, and AI-powered touch-ups, Photo Editor Pro ensures every image looks exactly how you envision it. Whether you’re fine-tuning portraits, landscapes, or digital art, the app’s real-time preview lets you instantly visualize adjustments before applying them. \n\nIn addition to its editing power, Photo Editor Pro is built with a strong focus on accessibility and user experience. The clean, intuitive interface guides users seamlessly through complex tools without compromising performance. Professionals will appreciate the non-destructive editing workflow, RAW file support, and precision tools for retouching, color grading, and exposure correction. Beginners, on the other hand, can take advantage of one-tap filters, AI suggestions, and pre-set effects to achieve stunning results instantly. Every feature has been designed to save time while enhancing creative freedom, ensuring users can edit efficiently without losing artistic control.\n\nBeyond editing, Photo Editor Pro supports seamless export in multiple file formats and integrates effortlessly with cloud storage and social media platforms. This makes sharing creations easy and efficient, whether for social media posts, digital portfolios, or professional printing. The app also includes customizable brushes, gradient overlays, text additions, and background manipulation options for limitless creativity. With frequent updates introducing new filters, effects, and templates, Photo Editor Pro continuously evolves to meet the growing needs of digital creators. It’s not just an editing app—it’s a complete creative studio in your pocket.",
     "size": 125,
-    "reviews": 34,
+    "reviews": 34387,
     "ratingAvg": 4.5,
     "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 50 },
       { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 200 },
+      { "name": "3 star", "count": 587 },
       { "name": "4 star", "count": 800 },
       { "name": "5 star", "count": 2250 }
     ]
@@ -24,13 +24,13 @@
     "id": 2,
     "description": "Music Player by SoundWave is a sleek and powerful app that redefines how you listen to and organize your favorite songs. Supporting multiple audio formats and offering crystal-clear playback, it provides a premium sound experience on every device. The intuitive interface allows users to browse music by artist, genre, or playlist while customizing their listening environment with equalizer presets and visual themes.\n\nBeyond playback, the app offers smart features that enhance convenience and personalization. Its AI-driven recommendation system learns your preferences, curating playlists that match your mood or activity. Gapless playback, crossfade effects, and bass boost settings make listening smooth and dynamic, while offline mode ensures uninterrupted enjoyment without internet access. Users can also manage large libraries effortlessly, with quick search and folder organization tools.\n\nMusic Player by SoundWave isn’t just about hearing music—it’s about feeling it. The integrated lyrics display, sleep timer, and real-time audio visualizations elevate your listening routine. Whether you’re working out, studying, or relaxing, the app adapts to your rhythm. With frequent updates introducing fresh features and performance enhancements, SoundWave remains your perfect daily music companion, turning every track into an immersive soundscape.",
     "size": 98,
-    "reviews": 28,
+    "reviews": 28250,
     "ratingAvg": 4.2,
     "downloads": 8,
     "ratings": [
       { "name": "1 star", "count": 70 },
       { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 300 },
+      { "name": "3 star", "count": 550 },
       { "name": "4 star", "count": 900 },
       { "name": "5 star", "count": 1380 }
     ]
@@ -42,14 +42,14 @@
     "id": 3,
     "description": "Fitness Tracker by FitLife is your personal wellness companion designed to help you stay motivated, monitor progress, and reach your health goals. The app combines advanced tracking technology with an intuitive interface that makes fitness accessible to everyone. Users can log workouts, steps, calories, sleep, and heart rate—all visualized in detailed graphs for better understanding of progress and trends.\n\nThe app goes beyond simple tracking by offering smart insights and adaptive goals. Personalized workout plans, daily reminders, and nutrition suggestions help users maintain consistency and balance. Integration with wearables and GPS ensures accurate data, whether you’re running outdoors or exercising at home. Progress charts, streak counters, and achievement badges keep motivation high and accountability strong.\n\nFitness Tracker also builds a supportive community where users can share milestones, participate in challenges, and celebrate wins together. Expert-led fitness guides and workout videos make it easier to learn proper techniques and stay inspired. With data privacy, smooth performance, and regular updates introducing new training modes, FitLife’s Fitness Tracker transforms self-discipline into a rewarding lifestyle, helping you become stronger, healthier, and more confident every day.",
     "size": 150,
-    "reviews": 45,
+    "reviews": 45832,
     "ratingAvg": 4.7,
     "downloads": 9,
     "ratings": [
       { "name": "1 star", "count": 30 },
       { "name": "2 star", "count": 80 },
       { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 700 },
+      { "name": "4 star", "count": 842 },
       { "name": "5 star", "count": 3540 }
     ]
   },
@@ -60,7 +60,7 @@
     "id": 4,
     "description": "Weather App by SkyCast delivers precise, real-time weather updates in a clean and easy-to-read interface. Designed with clarity and accuracy in mind, it provides hourly forecasts, extended 7-day outlooks, and live radar maps that help users stay prepared for any condition. Whether you’re planning a trip, dressing for the day, or checking storm alerts, SkyCast ensures you have the most reliable data at a glance.\n\nThe app uses advanced meteorological sources and AI-based modeling to deliver hyperlocal predictions that adjust to your exact location. Animated maps display temperature, wind, humidity, and precipitation in vivid detail, while alerts warn users of severe weather, air quality, or UV index changes. A customizable dashboard allows users to choose widgets and visual themes that fit their preferences, from minimal to dynamic.\n\nSkyCast also integrates lifestyle forecasts, letting users see how weather impacts activities such as running, driving, or gardening. Offline support ensures access to recent updates even without internet. With its sleek animations, efficient design, and low battery consumption, the app blends function with beauty. SkyCast makes weather checking not just useful but enjoyable—turning accurate forecasting into a daily essential.",
     "size": 85,
-    "reviews": 32,
+    "reviews": 32273,
     "ratingAvg": 4.3,
     "downloads": 10,
     "ratings": [
@@ -78,7 +78,7 @@
     "id": 5,
     "description": "Note Manager by MindKeep is a productivity powerhouse designed to simplify how you capture, organize, and recall ideas. From jotting quick notes to managing detailed project outlines, the app adapts seamlessly to personal and professional workflows. With a minimalist interface and lightning-fast syncing, your thoughts are always accessible—on phone, tablet, or desktop.\n\nThe app offers rich formatting tools, folder organization, tags, and powerful search to help you find notes instantly. Users can attach images, audio clips, and links, making notes visually rich and contextually complete. The auto-save and offline capabilities ensure that no idea is ever lost, while the cloud backup keeps everything safe and synced across all devices. Optional encryption and password protection maintain your privacy and data security.\n\nMindKeep’s collaboration features enable team productivity through shared notes, real-time editing, and comment threads. The app also supports reminders and task lists, bridging the gap between notes and actionable goals. With smooth animations, customizable themes, and dark mode, Note Manager blends elegance with efficiency. It’s not just an app—it’s your digital memory, always ready to organize the chaos of ideas into clear, structured thoughts.",
     "size": 200,
-    "reviews": 39,
+    "reviews": 39230,
     "ratingAvg": 4.6,
     "downloads": 7,
     "ratings": [
@@ -96,7 +96,7 @@
     "id": 6,
     "description": "Cooking Recipes by TasteBuddy is a versatile culinary companion designed to inspire creativity in the kitchen and help users discover new dishes from around the world. Whether you’re an amateur cook or a professional chef, the app offers an extensive catalog of recipes that cater to all skill levels and dietary preferences. Each recipe includes clear step-by-step instructions, precise ingredient lists, and timing guides to ensure consistently perfect results. Users can filter dishes by cuisine, preparation time, or available ingredients, making it effortless to find meals that match your taste and schedule. From quick breakfasts and comforting dinners to gourmet desserts, Cooking Recipes brings global flavors straight to your kitchen.\n\nMore than just a recipe collection, the app enhances your overall cooking experience. Built-in timers, measurement converters, and nutritional breakdowns simplify preparation while helping users make informed dietary choices. Interactive video tutorials and photo guides add a personal touch, allowing you to follow professional chefs and learn advanced techniques visually. Personalized recommendations adapt to your preferences, showing dishes similar to your favorites or introducing seasonal ideas. The app also allows users to save recipes, organize them into collections, and generate shopping lists automatically based on selected dishes. It’s a perfect combination of inspiration, utility, and convenience.\n\nCooking Recipes also promotes creativity and community. Users can upload their own recipes, rate others, and share feedback or photos of their creations. This interactive ecosystem helps people learn from one another, discover cultural traditions, and experiment with fusion cuisine. The app encourages home cooking as an enjoyable and healthy habit, turning everyday meals into opportunities for connection and self-expression. With its sleek interface and constant updates introducing new cuisines and cooking trends, Cooking Recipes transforms how you approach food—making every meal an opportunity to learn, explore, and savor the art of cooking.",
     "size": 110,
-    "reviews": 27,
+    "reviews": 27051,
     "ratingAvg": 4.4,
     "downloads": 6,
     "ratings": [
@@ -114,7 +114,7 @@
     "id": 7,
     "description": "Budget Planner by MoneyWise is a smart financial management tool that helps users take control of their money, reduce stress, and achieve financial goals with confidence. Designed with simplicity and power in mind, it lets users track income, expenses, and savings in real time. The intuitive dashboard provides a complete overview of financial health, while customizable categories make it easy to visualize where your money goes. Budget Planner transforms financial tracking into a proactive, goal-oriented habit—helping individuals, families, and students build long-term stability through awareness and insight.\n\nBeyond tracking, the app provides intelligent features that guide smarter financial decisions. Detailed charts and reports highlight spending patterns, revealing unnecessary expenses and helping users identify saving opportunities. Automated bill reminders prevent missed payments, and built-in goal trackers keep you motivated toward specific objectives like travel, emergency funds, or debt repayment. Users can also create multiple budgets—for personal, family, or business use—each with real-time syncing and device integration. Security remains a top priority, with data encryption ensuring your financial information stays protected.\n\nBudget Planner also serves as a personal finance coach. Through periodic summaries, progress insights, and personalized advice, the app encourages responsible spending and builds healthy money habits over time. Users can compare monthly reports, set custom alerts for overspending, and even forecast future balances based on income trends. The user-friendly interface and optional dark mode enhance the daily experience, making finance management both comfortable and engaging. Budget Planner’s commitment to clarity, simplicity, and control turns financial planning from a daunting task into an empowering routine, helping users build financial freedom—one smart decision at a time.",
     "size": 75,
-    "reviews": 31,
+    "reviews": 31000,
     "ratingAvg": 4.5,
     "downloads": 6,
     "ratings": [
@@ -132,7 +132,7 @@
     "id": 8,
     "description": "Travel Guide by Wanderlust is your all-in-one companion for exploring the world, crafted to simplify every aspect of trip planning and enhance your travel experience. It provides comprehensive destination guides featuring local attractions, cultural highlights, and insider tips that help you uncover both iconic landmarks and hidden gems. Whether you’re planning a quick weekend escape or an extended adventure, the app tailors suggestions based on your preferences—be it nature, history, cuisine, or luxury travel. Interactive maps, curated itineraries, and travel advisories ensure that every journey is safe, informed, and filled with memorable experiences.\n\nWhat sets Travel Guide apart is its powerful offline functionality and integrated services. Users can access maps, language basics, and navigation tools even without an internet connection, ensuring confidence while exploring remote areas. The app seamlessly connects with booking services for hotels, flights, and tours, allowing travelers to plan everything in one place. Personalized travel logs let users document their experiences, attach photos, and share recommendations with friends or fellow travelers. With features like weather updates, currency conversion, and local transportation insights, Travel Guide turns any trip into a smooth, organized, and enjoyable adventure.\n\nTravel Guide also encourages community-driven exploration. Users can rate destinations, read traveler reviews, and follow curated travel journals for inspiration. Whether you’re seeking cultural immersion or adventure-filled expeditions, the app keeps you informed and inspired throughout your journey. Frequent updates ensure that content stays relevant, with new cities, attractions, and travel trends added regularly. With its intuitive design and global database, Travel Guide bridges the gap between wanderlust and practicality—helping users travel smarter, discover deeper, and make every moment of their journey unforgettable.",
     "size": 130,
-    "reviews": 36,
+    "reviews": 36900,
     "ratingAvg": 4.6,
     "downloads": 9,
     "ratings": [
@@ -150,7 +150,7 @@
     "id": 9,
     "description": "Learning Hub by EduSmart is an interactive educational ecosystem that reimagines how people learn, grow, and connect through knowledge. It provides a vast library of courses and lessons across disciplines like mathematics, science, technology, and the arts. Designed for students, professionals, and lifelong learners, the platform adapts to different learning styles by combining text, video, and interactive activities. Personalized learning paths guide users through material at their own pace, ensuring better comprehension and engagement. The app’s clean layout and dynamic features make learning not just effective, but genuinely enjoyable.\n\nEach course on Learning Hub is structured to build understanding progressively. Quizzes, flashcards, and gamified challenges keep users motivated, while progress trackers and performance analytics show measurable improvement. For advanced learners, detailed lesson notes, practice sets, and peer discussions add depth and collaboration. The app’s AI-driven recommendation engine suggests new topics based on completed modules, helping users continuously expand their skills. Offline access allows studying anywhere, while the integrated note-taking system ensures that important insights are always within reach.\n\nLearning Hub goes beyond being an app—it’s a global community of learners. Users can join study groups, participate in live sessions, or collaborate on problem-solving challenges. Teachers and professionals can create and share courses, transforming the app into a two-way educational exchange. With its sleek interface, accessible design, and frequent updates introducing new subjects and certification programs, Learning Hub supports lifelong growth. It helps users not just learn facts but develop skills that empower them personally and professionally in today’s rapidly evolving world.",
     "size": 145,
-    "reviews": 33,
+    "reviews": 33570,
     "ratingAvg": 4.4,
     "downloads": 5,
     "ratings": [
@@ -168,7 +168,7 @@
     "id": 10,
     "description": "Game Portal by PlayZone is the ultimate digital playground, offering a vast collection of games designed to entertain, challenge, and connect players across the globe. Whether you love puzzles, action-packed adventures, or multiplayer competitions, the platform provides endless gaming possibilities. The app curates both classic titles and new releases, ensuring something for every taste and skill level. Its sleek interface and quick-loading design allow users to dive into gameplay instantly. Regularly updated content keeps experiences fresh, while personalized recommendations help users discover new favorites aligned with their interests.\n\nGame Portal also places community and competition at its heart. Users can join multiplayer matches, climb global leaderboards, and unlock achievements that showcase progress. Social features enable chatting with friends, forming gaming groups, and sharing highlights or victories instantly. Built-in performance analytics allow players to track scores, win ratios, and game history, adding a competitive layer to the experience. Offline mode ensures entertainment even without internet access, while cloud saves let users pick up their progress seamlessly across devices. Every element is optimized to deliver smooth, immersive, and visually captivating gameplay.\n\nMore than just a gaming platform, Game Portal is an ever-evolving entertainment hub. It encourages players to explore new genres, sharpen skills, and connect with a vibrant international gaming community. With integrated events, tournaments, and seasonal updates, the app keeps engagement alive year-round. Whether you’re playing solo or with friends, Game Portal blends fun, challenge, and creativity in one unified experience. For both casual gamers and dedicated players, it offers the perfect escape—a place where entertainment meets excellence, and every session brings a new opportunity for discovery and excitement.",
     "size": 180,
-    "reviews": 40,
+    "reviews": 40830,
     "ratingAvg": 4.7,
     "downloads": 9,
     "ratings": [
@@ -186,7 +186,7 @@
     "id": 11,
     "description": "Meditation App by CalmMind is your personal pocket retreat for peace, mindfulness, and emotional balance. It offers guided meditations, soothing sounds, and breathing exercises designed to help users manage stress, sleep better, and cultivate inner calm. Whether you’re new to meditation or an experienced practitioner, the app provides sessions for every goal—relaxation, focus, self-awareness, or positivity. The minimalist interface and calming visuals create an atmosphere that encourages mindfulness anytime, anywhere.\n\nEach session is crafted by certified mindfulness coaches and therapists, combining proven techniques from yoga, psychology, and neuroscience. Users can choose from different session lengths to fit their schedule—from 2-minute breathing resets to 30-minute deep focus sessions. The app also includes nature soundscapes, sleep stories, and relaxation music that make winding down easier after a busy day. Progress tracking helps users stay consistent and celebrate small victories as they develop daily meditation habits.\n\nMeditation App by CalmMind also personalizes your experience over time. It learns your emotional state through mood check-ins and recommends practices to match your current needs. Offline access ensures calm moments even without internet, while daily reminders encourage you to stay grounded. With its combination of gentle design, expert guidance, and scientific mindfulness methods, CalmMind helps you slow down, breathe deeply, and rediscover balance in a fast-paced world.",
     "size": 90,
-    "reviews": 29,
+    "reviews": 29980,
     "ratingAvg": 4.3,
     "downloads": 6,
     "ratings": [
@@ -204,7 +204,7 @@
     "id": 12,
     "description": "Language Learner by LinguaPro is a dynamic language education platform designed to make mastering new languages intuitive and fun. Whether you’re studying English, Spanish, Japanese, or French, the app provides immersive lessons built around real-world communication. Through interactive exercises, pronunciation training, and gamified progress tracking, it helps users build confidence in speaking, listening, reading, and writing. The lessons are short, engaging, and adaptive—perfect for learning on the go.\n\nThe app’s intelligent AI tutor personalizes every learner’s journey. It identifies weak areas, adjusts lesson difficulty, and offers instant feedback on pronunciation using voice recognition technology. Users can explore themed vocabulary sets, grammar tutorials, and mini-dialogues that simulate real-life conversations. Built-in flashcards, quizzes, and streak rewards turn study sessions into exciting challenges that encourage consistency. Progress reports and performance graphs allow learners to visualize improvement day by day.\n\nLanguage Learner also emphasizes cultural understanding. It introduces idioms, traditions, and expressions unique to each region, helping users sound natural and authentic when speaking. Community features allow users to chat with native speakers, exchange corrections, and share tips. With offline mode, daily goals, and regular updates adding new languages and modules, LinguaPro transforms language learning into a joyful, habit-forming experience. It’s not just about memorizing words—it’s about connecting people through the power of communication.",
     "size": 120,
-    "reviews": 35,
+    "reviews": 35017,
     "ratingAvg": 4.5,
     "downloads": 7,
     "ratings": [
@@ -222,7 +222,7 @@
     "id": 13,
     "description": "Task Manager by FlowTask is a streamlined productivity app built to help users organize their work, track priorities, and manage time effectively. It simplifies task management through an intuitive drag-and-drop interface, color-coded lists, and progress indicators. Users can create projects, assign deadlines, and categorize tasks effortlessly. Whether you’re handling personal to-dos or managing team projects, FlowTask ensures everything stays clear, structured, and achievable.\n\nThe app offers powerful features such as reminders, recurring tasks, and calendar integration that syncs across all devices. Smart sorting options automatically group tasks by urgency or category, helping users focus on what truly matters. Visual progress charts and focus timers encourage better time management and accountability. Collaboration tools enable sharing lists with teammates, assigning roles, and tracking completion rates—all within a distraction-free workspace.\n\nFlowTask also adapts to individual work styles with flexible customization. Users can toggle between list, board, and timeline views depending on their workflow. A minimalist design, dark mode, and gesture-based navigation create a seamless and satisfying user experience. Notifications, widgets, and synchronization with cloud storage ensure your productivity never slows down. With FlowTask, managing life’s responsibilities becomes simple, efficient, and motivating—turning chaos into organized progress every single day.",
     "size": 95,
-    "reviews": 31,
+    "reviews": 31094,
     "ratingAvg": 4.6,
     "downloads": 5,
     "ratings": [
@@ -240,7 +240,7 @@
     "id": 14,
     "description": "Health Monitor by BodySync is an intelligent wellness companion that helps you understand and improve your physical health through accurate, real-time tracking. The app monitors key metrics such as heart rate, sleep quality, steps, hydration, and stress levels—all displayed through clear visual analytics. Designed for everyday users and fitness enthusiasts alike, it integrates seamlessly with wearable devices to provide a holistic picture of your well-being.\n\nHealth Monitor doesn’t just collect data—it makes sense of it. The app uses AI-driven insights to analyze trends, detect irregularities, and provide personalized health recommendations. Daily summaries highlight your performance, while alerts remind you to stay hydrated, take breaks, or maintain proper posture. The app also supports goal setting for weight management, exercise consistency, and sleep improvement, helping users stay accountable and motivated. All health data is encrypted, ensuring complete privacy and safety.\n\nBeyond tracking, Health Monitor promotes proactive wellness. Users can log medical records, monitor vital changes over time, and share summaries with healthcare providers if needed. Integration with diet planners, fitness apps, and mindfulness tools creates a unified lifestyle management system. With sleek visuals, customizable dashboards, and regular feature updates, BodySync’s Health Monitor empowers users to take charge of their well-being—turning everyday tracking into lifelong self-care.",
     "size": 110,
-    "reviews": 30,
+    "reviews": 33903,
     "ratingAvg": 4.4,
     "downloads": 4,
     "ratings": [
@@ -258,7 +258,7 @@
     "id": 15,
     "description": "File Manager by DataBox is a robust and modern tool designed to simplify digital organization and file control. It offers an elegant solution for managing photos, videos, documents, and downloads efficiently across all devices. The clean layout makes navigation effortless, allowing users to browse folders, preview files, and perform actions like move, rename, or compress with a single tap. Whether used for personal storage or professional workflow, DataBox brings order and speed to file management.\n\nThe app supports multiple file formats and cloud integration with services like Google Drive, Dropbox, and OneDrive, allowing seamless synchronization. Built-in search and sorting tools help users locate files instantly, while encrypted storage ensures data safety. A smart “Storage Analyzer” displays memory usage in visual form, highlighting large files and duplicate data to optimize space. Batch actions and quick-share options simplify multitasking and enhance productivity.\n\nFile Manager by DataBox is more than a utility—it’s a digital companion built for efficiency and security. Offline access, dark mode, and customizable layouts let users tailor the experience to their needs. Frequent updates add compatibility for new file types and system improvements, keeping the app future-ready. With DataBox, managing files becomes simple, intuitive, and stress-free—helping you stay organized and in control, no matter how much data life brings your way.",
     "size": 160,
-    "reviews": 37,
+    "reviews": 37190,
     "ratingAvg": 4.6,
     "downloads": 9,
     "ratings": [

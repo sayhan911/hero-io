@@ -1,7 +1,5 @@
 import React from "react";
 import AppError from "../../assets/App-Error.png";
-import Navbar from "../../components/Header/Navbar";
-import Footer from "../../components/Footer/Footer";
 import { useNavigate } from "react-router";
 
 const AppNotFound = () => {
