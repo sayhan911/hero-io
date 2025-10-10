@@ -18,7 +18,7 @@ const AppNotFound = () => {
             The App you are requesting is not found on our system. please try
             another apps
           </p>
-          <a className="btn btn-primary px-9 py-6" href="">
+          <a className="btn btn-primary px-9 py-6" href="/apps">
             See All Apps
           </a>
         </div>

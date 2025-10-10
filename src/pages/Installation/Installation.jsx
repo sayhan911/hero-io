@@ -76,11 +76,12 @@ const Installation = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
+
       <div className="flex justify-between items-center mx-7 md:mx-10 lg:mx-16 pb-3">
         <h3 className="text-base sm:text-lg md:text-xl font-semibold">
           {install.length} Apps Found
         </h3>
-        <label className="form-control">
+        <label className="form-control w-1/2 sm:w-1/3 md:w-1/5">
           <select
             className="select select-bordered"
             value={sort}

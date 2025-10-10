@@ -27,17 +27,20 @@ const Applications = () => {
 
   return (
     <div>
-      <h1 className="text-center text-4xl font-semibold pt-12">
-        Our All Applications
-      </h1>
-      <p className="text-center text-[#627382] text-md m-6 lg:mb-10">
-        Explore All Apps on the Market developed by us. We code for Millions
-      </p>
+      {/* title section */}
+      <div>
+        <h1 className="text-center text-4xl font-semibold pt-12">
+          Our All Applications
+        </h1>
+        <p className="text-center text-[#627382] text-md m-6 lg:mb-10">
+          Explore All Apps on the Market developed by us. We code for Millions
+        </p>
+      </div>
       <div className="flex flex-col sm:flex-row justify-between items-center mx-12 sm:mx-7 lg:mx-20 mb-4">
         <h3 className="text-base sm:text-lg md:text-xl font-semibold mb-3 md:mb-0">
           ({term ? searchedApps.length : totalApps}) Apps Found
         </h3>
-        <label className="input w-full sm:w-1/3 lg:w-1/4">
+        <label className="input">
           <CiSearch />
           <input
             value={search}
@@ -47,6 +50,7 @@ const Applications = () => {
           />
         </label>
       </div>
+      {/* App list */}
       <div className="pb-20 min-h-[400px] flex justify-center items-center">
         {loading ? (
           <div className="flex justify-center py-10">

@@ -15,7 +15,7 @@ const Banner = () => {
         simpler, smarter, and more exciting. Our goal is to turn your ideas into
         digital experiences that truly make an impact.
       </p>
-      <div className="flex justify-center gap-4 mb-10">
+      <div className="flex justify-center gap-2 sm:gap-4 mb-10">
         <a
           href="https://play.google.com/store"
           target="_blank"

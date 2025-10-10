@@ -13,7 +13,7 @@ const AppsGrid = ({ data, limit }) => {
           </div>
         }
       >
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mx-12 sm:mx-7 lg:mx-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-5 mx-12 sm:mx-7 lg:mx-20">
           {displayedApps.map((apps) => (
             <App key={apps.id} apps={apps}></App>
           ))}
