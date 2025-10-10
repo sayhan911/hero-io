@@ -8,16 +8,16 @@ const MySwal = withReactContent(Swal);
 
 const Installation = () => {
   const [install, setInstall] = useState([]);
-  const [sort, setSort] = useState("None");
+  const [sort, setSort] = useState("none");
   useEffect(() => {
     const installedApp = JSON.parse(localStorage.getItem("install"));
     if (installedApp) setInstall(installedApp);
   }, []);
   const sortedApps = () => {
     if (sort === "sort-asc") {
-      return [...install].sort((a, b) => a.size - b.size);
+      return [...install].sort((a, b) => a.downloads - b.downloads);
     } else if (sort === "sort-desc") {
-      return [...install].sort((a, b) => b.size - a.size);
+      return [...install].sort((a, b) => b.downloads - a.downloads);
     } else {
       return install;
     }
@@ -76,18 +76,18 @@ const Installation = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-
+      {/* Sorting */}
       <div className="flex justify-between items-center mx-7 md:mx-10 lg:mx-16 pb-3">
         <h3 className="text-base sm:text-lg md:text-xl font-semibold">
           {install.length} Apps Found
         </h3>
-        <label className="form-control w-1/2 sm:w-1/3 md:w-1/5">
+        <label className="form-control w-1/2 sm:w-1/3 md:w-1/5 xl:w-auto">
           <select
             className="select select-bordered"
             value={sort}
             onChange={(e) => setSort(e.target.value)}
           >
-            <option value="none">Sort by Size</option>
+            <option value="none">Sort by Downloads</option>
             <option value="sort-asc">Low to High</option>
             <option value="sort-desc">High to Low</option>
           </select>

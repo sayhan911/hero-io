@@ -1,16 +1,27 @@
-# React + Vite
+# APPZY
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+APPZY is a responsive web application simulating an app store, allowing users to browse, search, and install/uninstall apps with localStorage integration. It features a modern UI with a live search, a review chart using Recharts, and custom error handling for invalid routes and missing apps. Built for the Hero IO assignment, APPZY delivers a seamless experience across all devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
 
-## React Compiler
+- React: Frontend library for building the UI.
+- React Router: For client-side routing and navigation.
+- Tailwind CSS: For responsive and utility-first styling.
+- DaisyUI: For pre-built Tailwind components.
+- Recharts: For rendering the app review bar chart.
+- SweetAlert2: For interactive toasts and confirmations.
+- FontAwesome: For icons in the navbar and footer.
+- react-loader-spinner: For loading animations during navigation and search.
+- LocalStorage: For persisting installed apps.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design for mobile, tablet, and desktop.
+- Case-insensitive live search for apps by title.
+- Install/uninstall apps with localStorage and toast notifications.
+- Sorting installed apps by download count (High-Low, Low-High).
+- Responsive review chart using Recharts.
+- Custom error pages for invalid routes and missing apps.
+- Loading animations for page navigation and search operations.
