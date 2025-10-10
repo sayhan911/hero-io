@@ -22,8 +22,9 @@ const Installation = () => {
       return install;
     }
   };
+
+  // Handle Install button
   const handleUninstall = (id) => {
-    let timerInterval;
     MySwal.fire({
       title: "Are you sure?",
       text: "You won't be able to revert this!",
@@ -41,13 +42,8 @@ const Installation = () => {
           timerProgressBar: true,
           didOpen: () => {
             Swal.showLoading();
-            const timer = Swal.getPopup().querySelector("b");
-            timerInterval = setInterval(() => {
-              timer.textContent = `${Swal.getTimerLeft()}`;
-            }, 100);
           },
           willClose: () => {
-            clearInterval(timerInterval);
             const existingApp =
               JSON.parse(localStorage.getItem("install")) || [];
             let updatedList = existingApp.filter((p) => p.id !== id);
@@ -64,6 +60,8 @@ const Installation = () => {
       }
     });
   };
+  // End: Handle Install button
+
   return (
     <div className="bg-[#F5F5F5]">
       {/* Title section */}

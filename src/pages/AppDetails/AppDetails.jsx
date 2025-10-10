@@ -46,13 +46,15 @@ const AppDetails = () => {
     size,
     ratings,
   } = singleApp;
-
+  const sortedRatings = [...ratings].sort(
+    (a, b) => parseInt(b.name) - parseInt(a.name)
+  );
+  // Handle install button
   const handleInstall = () => {
     const existingApp = JSON.parse(localStorage.getItem("install")) || [];
     const updatedList = [...existingApp, singleApp];
     localStorage.setItem("install", JSON.stringify(updatedList));
     setIsInstalled(true);
-    let timerInterval;
     MySwal.fire({
       title: "Installing...",
       html: "Setting up your app... Hang tight!",
@@ -60,14 +62,8 @@ const AppDetails = () => {
       timerProgressBar: true,
       didOpen: () => {
         Swal.showLoading();
-        const timer = Swal.getPopup().querySelector("b");
-        timerInterval = setInterval(() => {
-          timer.textContent = `${Swal.getTimerLeft()}`;
-        }, 100);
       },
-      willClose: () => {
-        clearInterval(timerInterval);
-      },
+      willClose: () => {},
     }).then((result) => {
       if (result.dismiss === Swal.DismissReason.timer) {
         return MySwal.fire({
@@ -78,6 +74,7 @@ const AppDetails = () => {
       }
     });
   };
+
   return (
     <div className="bg-[#F5F5F5]">
       {/* Details Top */}
@@ -168,28 +165,24 @@ const AppDetails = () => {
       {/* Details Chart */}
       <div className="mx-7 md:mx-10 lg:mx-16">
         <h3 className="text-[#011931] text-xl font-semibold mb-4">Ratings</h3>
-        <div className="bg-base-100 border rounded-xl h-80">
+        <div className="h-80 -ml-4">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart
               width={500}
               height={300}
-              data={ratings}
-              margin={{
-                top: 5,
-                right: 30,
-                left: 20,
-                bottom: 5,
-              }}
+              data={sortedRatings}
+              layout="vertical"
             >
               <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="name" />
-              <YAxis />
+              <XAxis type="number" />
+              <YAxis dataKey="name" type="category" />
               <Tooltip />
               <Legend />
               <Bar
                 dataKey="count"
-                fill="#8884d8"
-                activeBar={<Rectangle fill="pink" stroke="blue" />}
+                fill="#FF8813"
+                barSize={30}
+                activeBar={<Rectangle fill="#8E53EE" stroke="white" />}
               />
             </BarChart>
           </ResponsiveContainer>
